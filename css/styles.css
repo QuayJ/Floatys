@@ -1,7 +1,9 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
+
 /*Start of all styling done on the index.html*/
 #introVisual {
     position: fixed;
@@ -12,22 +14,41 @@
     height: 500px;
 }
 
-.videoText{
+.welcomeText{
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
 
-.videoText h1{
+.welcomeText h1{
     font-size: 150px;
     color: red;
     opacity: 0.5;
 }
 
-.videoText h2{
+.welcomeText h2{
     font-size: 25px;
     color: blueviolet;
+    
+}
+
+/*end of index.html styling */
+
+/* Start Styling for Navigation*/
+
+.navIcon{
+    height: 10vh;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+.navLinks{
+    text-decoration: none;
+    font-size: 35px;
 }
 
 .introLink{
@@ -41,17 +62,18 @@
 .homeButton{
     color: azure;
 }
-/*end of index.html styling */
-
-/* Start Styling for Navigation*/
-
-
 
 /* End of Styling for Navigation*/
 
 /*Start of styling for home.html*/
 
 
+.home{
+    height: 90vh;
+    position: absolute;
+    width: 100%;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
 
 
-/*Start of styling for home.html*/
+/*End of styling for home.html*/
