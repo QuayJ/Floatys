@@ -1,29 +1,33 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/styles.css" rel="stylesheet">
+        <link href="css/style.scss" rel="stylesheet">
         <title>
             HOME
         </title>
-        <link href="css/styles.css" rel="stylesheet">
-        <link href="css/style.scss" rel="stylesheet">
+       
     </head>
     <body class="home">
         <main data-router-wrapper>
             <section data-router-view="home" class="home">
 
 
-                <section class="navBurger">
-
-                        <div class="scroll" data-rate=".4" data-direction="vertical" id="navBurger">ok
-                            <img src="images/istockphoto-1256512913-612x612.jpg" id="navLogo" width="50px">
-                            <div class="hideText">NO</div></img>
+                    <nav class="wrapper">
+                        <div class="container">
+                            <img src="images/istockphoto-1256512913-612x612.jpg" class="menuLogo" width="50px">
                         </div>
                         <div class="navOpen">
-                            <a href="index.html">Intro</a>
-                            <a href="home.html">Home</a>
+                            <ul class="menu">
+                                <li><a href="index.html">Intro</a></li>
+                                <li><a href="home.html">Home</a></li>
+                                <li><a href="#">Other</a></li>
+                             </ul>
                         </div>
                     
-                </section>
+                    </nav>
 
 
 
@@ -35,5 +39,6 @@
 
              </section>
         </main>
+        <script src="js/index.js"></script>
     </body>
 </html>
