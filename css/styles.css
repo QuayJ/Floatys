@@ -35,6 +35,19 @@
 
 /*end of index.html styling */
 
+
+/*Header Styling*/
+
+.theHeader{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(79, 76, 76);
+}
+
+
+
+
+
 /* Start Styling for Navigation*/
 /*start of styling for index navigation; different from main nav*/
 #navIcon{
@@ -57,6 +70,12 @@
     border-radius: 35px;
     background-color: rgba(29, 28, 28, 0.844);
 }
+
+.homeButton{
+    color: azure;
+}
+
+/*end of intro nav styling, continue nav styling*/
 
 
 .wrapper{
@@ -120,13 +139,9 @@
 
 
 
-/*end of styling for index navigation*/tr
+/*end of styling for index navigation*/
 
 
-
-.homeButton{
-    color: azure;
-}
 
 
 /* End of Styling for Navigation*/
