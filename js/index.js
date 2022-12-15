@@ -1,6 +1,21 @@
-var logo = document.querySelector('.container');
-var menu = document.querySelector('.menu');
+var menuLogo = document.getElementById("menuLogo");
+var navigationBox = document.getElementById("navigationBox");
 
-logo.addEventListener('click,function'(){
-    menu.classList.toggle('showmenu');
-});
+var navigationBoxClass;
+
+menuLogo.onclick = function(){ 
+   
+    navigationBoxClass = navigationBox.getAttribute("class");
+
+    if(navigationBoxClass=="hide"){
+
+        navigationBox.removeAttribute("class");
+        navigationBox.setAttribute("class","animate__animated animate__slideOutDown" );
+    } else{
+        navigationBox.setAttribute("class", "hide");
+
+    }
+
+};
+
+

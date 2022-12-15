@@ -41,7 +41,7 @@
 .theHeader{
     display: flex;
     justify-content: center;
-    background-color: rgb(79, 76, 76);
+    background-color: grey;
 }
 
 
@@ -93,7 +93,13 @@
     border-radius: 30px;
 }
 
+.hide{
+    display: none;
+}
+
+
 .menu{
+    border: 2px solid red;
     background-color: black;
     width: 50%;
     opacity: 0.5;
@@ -103,6 +109,8 @@
     text-decoration: none;
     /* transform: translate(-500px); */
     transition: 0.5s;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .menu li{
