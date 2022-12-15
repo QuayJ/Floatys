@@ -10,10 +10,10 @@ menuLogo.onclick = function(){
     if(navigationBoxClass=="hide"){
 
         navigationBox.removeAttribute("class");
-        navigationBox.setAttribute("class","animate__animated animate__slideOutDown" );
+        navigationBox.setAttribute("class","animate__animated animate__zoomIn" );
     } else{
         navigationBox.setAttribute("class", "hide");
-
+        // navigationBox.setAttribute("class","animate__animated animate__zoomOut" );
     }
 
 };
