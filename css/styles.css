@@ -171,7 +171,8 @@
 .contentTop{
     display: flex;
     justify-content: center;
-    background-color: rgb(26, 26, 61) ;
+    background-image: url("https://d3cfv1r84exbq1.cloudfront.net/magefan_blog/Banner_1__2.jpg");
+    background-size: cover;
     border: 2px solid gray;
     padding: 15px 0 15px 0;
 }
@@ -193,6 +194,11 @@
 }
 .contentTop .homePresentation .btn:hover{
     background-color: rgb(33, 33, 77) ;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -217,4 +223,6 @@
 /* This is for carousel  */
 
 /* This is for carousel  */
+
+
 
