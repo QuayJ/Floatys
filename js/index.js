@@ -1,3 +1,4 @@
+//below for logo navigation
 var menuLogo = document.getElementById("menuLogo");
 var navigationBox = document.getElementById("navigationBox");
 
@@ -19,3 +20,9 @@ menuLogo.onclick = function(){
 };
 
 
+//below For submenu
+$(function() {
+    $(".btn").click(function() {
+        $(".submenu").slideToggle(500);
+    });
+});
