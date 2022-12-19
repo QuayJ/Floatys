@@ -164,6 +164,32 @@
     background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
 }
 
+.contentTop{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(26, 26, 61) ;
+    border: 2px solid gray;
+    padding: 15px 0 15px 0;
+}
+
+.contentTop .homePresentation {
+    color: antiquewhite;
+}
+
+.contentTop .homePresentation h4{
+    display: flex;
+    justify-content: center;
+}
+.contentTop .homePresentation .btn{
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgb(52, 52, 117);
+    background-color: rgb(52, 52, 117);
+    border-radius: 30px;   
+}
+.contentTop .homePresentation .btn:hover{
+    background-color: rgb(33, 33, 77) ;
+}
 
 
 /*End of styling for home.html*/
