@@ -68,7 +68,7 @@
     display: flex;
     border: 2px solid grey;
     border-radius: 35px;
-    background-color: rgba(29, 28, 28, 0.844);
+    background-color: rgba(29, 28, 28, 0.844)
 }
 
 .homeButton{
@@ -82,7 +82,12 @@
     width: 90%;
     margin: 0 auto;
     text-align: center;
+    
 }
+
+/* .wrapper #navigationBox{
+    border: 2px solid black;
+} */
 
 .container{
     border: 2px solid black;
@@ -99,7 +104,7 @@
 
 
 .menu{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background-color: black;
     width: 50%;
     opacity: 0.5;
@@ -107,8 +112,7 @@
     padding: 50px;
     font-size: 20px;
     text-decoration: none;
-    /* transform: translate(-500px); */
-    transition: 0.5s;
+    list-style: none;
     margin-left: auto;
     margin-right: auto;
 }
@@ -132,7 +136,7 @@
 }
 
 .menu li a{
-    border: 2px solid orange;
+    /* border: 2px solid orange; */
     text-decoration: none;
     color: #cfd9df;
 
