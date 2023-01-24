@@ -274,7 +274,8 @@ footer{
 .theBud {
     position: relative;
     max-width: 200px;
-    margin-inline: auto;
+    /* margin-inline: auto; */
+    border: 8px solid pink;
 }
 
 .budContainer{
@@ -283,15 +284,18 @@ footer{
     align-items: end;
     border-radius: 0 0 100vw 100vw;
     /* background-color: red; */
-    aspect-ratio: 1/1.2;
+    aspect-ratio: 1/1.4;
     overflow: hidden;
 }
 
 .budContainer:hover .budPicture{
-  transform: scale(1) translateY(-20px);  
+  transform: scale(1) translateY(-20px) translateX(30px);
 }
 
+.budContainer:hover .budCircle{
+    
 
+}
 .budCircle {
     position: absolute;
     aspect-ratio: 1/1;
