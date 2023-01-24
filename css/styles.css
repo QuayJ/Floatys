@@ -277,18 +277,42 @@ footer{
     margin-inline: auto;
 }
 
+.budContainer{
+    width: 175%;
+    display: grid;
+    align-items: end;
+    border-radius: 0 0 100vw 100vw;
+    /* background-color: red; */
+    aspect-ratio: 1/1.2;
+    overflow: hidden;
+}
+
+.budContainer:hover .budPicture{
+  transform: scale(1) translateY(-20px);  
+}
+
+
 .budCircle {
     position: absolute;
     aspect-ratio: 1/1;
+    inset: auto 0 0;
     object-fit: cover;
     width: 175%;
-    border-radius: 30px;
+    border-radius: 50%;
 }
 
 .budPicture{
     position: relative;
+    /* left: ; */
     z-index: 2;
-    width: 300px;
+    width: 250px;
+    /* transform: scale(1); */
+    transition: transform 350ms ease-in-out;
+}
+
+
+.budContainer:hover{
+      
 }
 
 
