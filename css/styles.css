@@ -233,12 +233,30 @@
     margin-left: 75px;
 }
 
+.feature .discreetImage{
+    border: 2px solid red;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-left: 75px;
+}
+
+.feature .mapImage{
+    border: 2px solid red;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-left: 75px;
+}
+
+
 .feature{
     width: 32%;
     display: inline-block;
     font-size: 16px;
     border: 4px solid white;
     margin-left: 10px;
+    text-align: center;
 }
 .feature img{
     width: 40%;
@@ -270,7 +288,19 @@ footer{
 /* This is for carousel  */
 /* This is for carousel  */
 
+.monthSpecial{
+    border: 5px solid blue;
+    position: relative;
+}
 
+.monthSpecialText{
+    border: 5px solid white;
+    background-color: gray;
+    display: flex;
+    text-align: center;
+    font-size: 50px;
+    justify-content: center;
+}
 .theBud {
     position: relative;
     max-width: 200px;
@@ -293,7 +323,7 @@ footer{
 }
 
 .budContainer:hover .budCircle{
-    
+    opacity: .8;
 
 }
 .budCircle {
