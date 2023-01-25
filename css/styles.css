@@ -351,7 +351,15 @@ footer{
 
 
 /* STYLING FOR ABOUT US PAGE */
-
+.aboutPage{
+    background-color: black;
+    color: aliceblue;
+}
+.ourStory{
+    border: 2px solid blue;
+    padding: 10px 30px 10px 30px;
+    margin: 0 30px 0 30px;
+}
 .aboutUsVideo{
     border: 5px solid purple;
     max-width: 100%;
@@ -365,11 +373,12 @@ footer{
 }
 
 .ourFoundersDescrpition{
-  border: 2px solid red;
+  border: 5px solid red;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  
+  padding: 10px 30px 10px 30px;
+  margin: 0 30px 0 30px;
   
 }
 
@@ -384,13 +393,14 @@ footer{
 .leftSideFounder{
     width: 300px;
     border: 3px solid yellow;
-    /* position: relative; */
+    padding: 10px 30px 10px 30px;
+    margin: 0 30px 0 30px;
 }
 .rightSideFounder{
     width: 300px;
     border: 3px dotted yellow;
-    /* position: relative; */
-}
+    padding: 10px 30px 10px 30px;
+    margin: 0 30px 0 30px;}
 
 .foundersImage .leftSideFounder{
     display: flex;
