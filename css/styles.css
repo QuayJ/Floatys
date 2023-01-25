@@ -41,7 +41,7 @@
 .theHeader{
     display: flex;
     justify-content: center;
-    background-color: grey;
+    /* background-color: grey; */
 }
 
 
@@ -165,7 +165,10 @@
     /* height: 90vh; */
     position: absolute;
     width: 100%;
-    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    background-color: black;
+    color: aliceblue;
+    /* margin-left: 30px;*/
+    padding: 0 25px 0 25px; 
 }
 
 .contentTop{
@@ -282,11 +285,6 @@ footer{
 
 
 /* This is for carousel  */
-/* This is for carousel  */
-/* This is for carousel  */
-/* This is for carousel  */
-/* This is for carousel  */
-/* This is for carousel  */
 
 .monthSpecial{
     border: 5px solid blue;
@@ -305,7 +303,9 @@ footer{
     position: relative;
     max-width: 200px;
     /* margin-inline: auto; */
-    border: 8px solid pink;
+    /* border: 8px solid pink; */
+    /* padding: 0 20px 0 20px; */
+
 }
 
 .budContainer{
@@ -319,7 +319,7 @@ footer{
 }
 
 .budContainer:hover .budPicture{
-  transform: scale(1) translateY(-20px) translateX(30px);
+  transform: scale(1) translateY(-30px) translateX(30px);
 }
 
 .budContainer:hover .budCircle{
@@ -333,6 +333,7 @@ footer{
     object-fit: cover;
     width: 175%;
     border-radius: 50%;
+    margin-left: 50px;
 }
 
 .budPicture{
@@ -342,6 +343,7 @@ footer{
     width: 250px;
     /* transform: scale(1); */
     transition: transform 350ms ease-in-out;
+    margin-left: 50px;
 }
 
 
